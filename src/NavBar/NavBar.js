@@ -1,16 +1,24 @@
 // import { Link } from "react-router-dom";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-const NavBar = () => {
+const Navigation = () => {
   return (
-    <div>
-      <nav>
-        <ul>Home</ul>
-        <ul>Vehicles</ul>
-        <ul>Information</ul>
-        <ul>Links</ul>
-      </nav>
-    </div>
+    <Navbar expand="lg">
+      <Container>
+        <Nav className="me-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#vehicles">Vehicles</Nav.Link>
+          <Nav.Link href="#information">Information</Nav.Link>
+          <NavDropdown title="More">
+            <NavDropdown.Item>About Us</NavDropdown.Item>
+            <NavDropdown.Item>Reviews</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item>Terms of Service</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 };
 
-export default NavBar;
+export default Navigation;
