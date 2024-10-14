@@ -1,5 +1,10 @@
 const HomeHeader = () => {
-  return <h1>Search Bar Here.</h1>;
+  return (
+    <div>
+      <h1>Website Header</h1>
+      <h2>Sub Header</h2>
+    </div>
+  );
 };
 
 export default HomeHeader;

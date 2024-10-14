@@ -1,10 +1,11 @@
 import "./App.css";
+import NavBar from "./NavBar/NavBar";
 import HomeHeader from "./HomeHeader/HomeHeader";
 
 function App() {
   return (
     <div className="App">
-      <h1>Car Rental Service.</h1>
+      <NavBar />
       <HomeHeader />
     </div>
   );
