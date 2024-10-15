@@ -1,10 +1,12 @@
+import "./HomeHeader.css";
+
 const HomeHeader = () => {
   return (
-    <div>
-      <h1>Carma</h1>
-      <h5>Good Rides, Good Carma.</h5>
-      <div>
-        <input placeholder="Search Your Location"></input>
+    <div className="banner">
+      <h1 className="header">Carma</h1>
+      <h5 className="quote">Good Rides, Good Carma.</h5>
+      <div className="search">
+        <input className="input" placeholder="Search Your Location"></input>
         <button>Search</button>
       </div>
     </div>

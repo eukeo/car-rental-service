@@ -1,0 +1,32 @@
+.banner {
+  /* border: 1px solid red; */
+  margin-top: 100px;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+}
+
+.quote {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid purple; */
+  margin-bottom: 20px;
+}
+
+.search {
+  margin-bottom: 105px;
+  /* border: 1px solid blue; */
+}
+
+.input {
+  font-size: 14px;
+  padding: 4px 87px 4px 10px;
+}
+
+.search button {
+  padding: 5px;
+}

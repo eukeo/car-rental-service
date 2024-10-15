@@ -1,0 +1,19 @@
+.navbar {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #333;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: color 0.3 ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
