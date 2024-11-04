@@ -3,9 +3,8 @@ import "./HomeHeader.css";
 const HomeHeader = () => {
   return (
     <div className="banner">
-      <h1 className="header">Carma</h1>
-      <h5 className="quote">Good Rides, Good Carma.</h5>
       <div className="search">
+        <h5>Currently renting in Los Angeles, Chicago and New York.</h5>
         <input className="input" placeholder="Search Your Location"></input>
         <button>Search</button>
       </div>
