@@ -1,5 +1,11 @@
+/* .header {
+  float: left;
+  margin: 0;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+
 .navbar {
-  border-bottom: 1px solid white;
   margin: 0;
 }
 
@@ -16,4 +22,46 @@
 
 .nav-link:hover {
   color: #007bff;
+} */
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0.5rem 0rem 1rem 0rem;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  float: left;
+  font-size: 1.8rem; /* Header size */
+  padding: 1px 10px 1px 10px;
+  color: #333; /* Dark text color */
+  margin-right: auto; /* Align header to the left */
+  z-index: 1;
+}
+
+.nav {
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Flexbox for horizontal alignment */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark text color */
+  padding: 0.5rem 1rem; /* Padding for links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items on smaller screens */
+  }
+
+  .nav {
+    flex-direction: column; /* Stack nav items */
+    align-items: flex-start; /* Align items to the left */
+  }
 }
